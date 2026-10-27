@@ -72,10 +72,10 @@ New releases happen frequently and may introduce breaking changes or different b
 
 2) Add the agents through the Agent Stack CLI (replace the release tag with the latest available on GitHub):
    ```bash
-   agentstack add https://github.com/sandijean90/AgentStack-HealthcareAgent@release-0.0.16#path=/policy_agent
-   agentstack add https://github.com/sandijean90/AgentStack-HealthcareAgent@release-0.0.16#path=/provider_agent
-   agentstack add https://github.com/sandijean90/AgentStack-HealthcareAgent@release-0.0.16#path=/research_agent
-   agentstack add https://github.com/sandijean90/AgentStack-HealthcareAgent@release-0.0.16#path=/healthcare_agent
+   agentstack add https://github.com/Shining-Crow/Healthcare@release-0.0.16#path=/policy_agent
+   agentstack add https://github.com/Shining-Crow/Healthcare@release-0.0.16#path=/provider_agent
+   agentstack add https://github.com/Shining-Crow/Healthcare@release-0.0.16#path=/research_agent
+   agentstack add https://github.com/Shining-Crow/Healthcare@release-0.0.16#path=/healthcare_agent
    ```
    The platform builds and runs each agent for you—no need to start the servers manually.
 3) Set the required environment variable for the ResearchAgent. Replace the API key with your personal key, which can be obtained [here](https://serper.dev/api-keys), and in your CLI run:
